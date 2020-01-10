@@ -5,18 +5,19 @@ Gerador de conexão .ini
 ## Compatibilidade
 
 Win x64
+
 Win x86
 
 ## Variáveis
 
 -   Database
--   User_Name=
+-   User_Name
 -   Password
 
 ## Build
 
 ```sh
-yarn build
+npm run build
 ```
 
 ## Corrigir erro de versão do NodeJS
@@ -26,19 +27,19 @@ excluir o arquivo **yarn.lock** e a pasta **node_modules**
 executar:
 
 ```sh
-yarn
+npm i
 ```
 
 depois das dependências instaladas executar o rebuild:
 
 ```sh
-yarn rebuild
+npm run rebuild
 ```
 
 e então gere o build:
 
 ```sh
-yarn build
+npm run build
 ```
 
 Copyright ® 2020 Victor Gianvechio
