@@ -21,7 +21,7 @@
     },
     "dependencies": {
         "electron-progressbar": "^1.2.0",
-        "jquery": "^3.4.1",
+        "jquery": "^3.5.0",
         "oracledb": "^4.1.0",
         "windows-cmd": "^1.0.1"
     },
